@@ -1,0 +1,75 @@
+* {
+    margin: 0; 
+    padding: 0;
+
+}
+
+.tamaño-logo{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    width: 100px;
+}
+
+
+.tamaño-logo img{
+    width: 100%;
+}
+
+.colornav{
+    background-color: rgb(238, 62, 62);
+}
+.text-align-center{ 
+    margin: 30%;
+   
+}
+
+.carousel-inner{
+    display: flex;
+    margin: 0%;
+    padding: 0 2 0 4;
+    width: 100px;
+
+}
+.texto-nosotros{
+    text-align: center;
+    margin-top: 30%;
+
+}
+
+.parrafo-juguetes{
+    margin-bottom:30%;
+}
+
+.texto-nosotros{
+    background-color: rgb(59, 111, 243);
+}
+
+.pantalla-body{
+    background-image: url(https://img.freepik.com/vector-premium/patron-suave-infantil-minimalista-lindo-inconsutil-puntos-multicolores-colores-pastel_308665-221.jpg?w=2000);
+    background-size: cover;
+}
+
+.copy{
+    background-color: beige;
+}
+.colorfooter{
+    background-color: rgb(247, 41, 41);
+    
+}
+.espacio-navbar{
+    margin-bottom: 3%;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.Lo-mas-vendido{
+    margin-bottom: 20%;
+}
+
+.texto-lo-mas-vendido{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
