@@ -76,6 +76,9 @@
 .espacio-consulta{
     margin-top: 3%;
 }
-.seccioncard{
-    display: flex;
-}
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
