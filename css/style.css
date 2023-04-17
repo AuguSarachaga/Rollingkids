@@ -262,3 +262,31 @@ a{
 
 }
 >>>>>>> baf05090011eff1ab4f3b7e44e77ffa55dbe07a1
+
+
+a {
+    text-decoration: none;
+}
+.login-page {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.form-right i {
+    font-size: 100px;
+}
+
+.imagen-registrarse{
+    margin: 5%;
+}
+
+.bg-imagen-registrarse{
+    background: url(https://img.freepik.com/vector-premium/patron-suave-infantil-minimalista-lindo-inconsutil-puntos-multicolores-colores-pastel_308665-221.jpg?w=2000);
+
+}
+
+.borde-registrarse{
+    box-shadow: 7px 13px 100px #2965c0
+}
