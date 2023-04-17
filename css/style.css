@@ -222,3 +222,33 @@
     width: 45%;
   }
 
+  .body-error{
+    background: rgb(248, 248, 248);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container-error{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+}
+a{
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(5, 129, 245);
+    color: white;
+    
+
+}
