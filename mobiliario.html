@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Rolling Kids</title>
+</head>
+<body class="pantalla-body">
+
+    <header>
+      <nav class="navbar navbar-expand-lg colornav text-white espacio-navbar">
+        <div class="container-fluid">
+          <a class="tamaño-logo" href="index.html"><img src="./favicon/logo rolling arcoiris.png" width="20%"
+              alt="rolling-kids-logo"></a>
+          <button class="navbar-toggler bi bi-three-dots" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-danger" href="juguetes.html"><b>Juguetes</b></a></li>
+                  <li><a class="dropdown-item text-danger" href="libros.html"><b>Libros</b></a></li>
+                  <li><a class="dropdown-item text-danger" href="mobiliario.html"><b>Mobiliario</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Contacto">Contacto</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a class="nav-link m-2" href="registrarse.html">Registrarse</a>
+              <a class="nav-link m-2" href="iniciarsesion.html">Iniciar Sesion</a>
+            </div>
+  
+          </div>
+        </div>
+      </nav>
+  
+  
+    </header>
+  
+    <main class="fondo-de-pantalla"> 
+    
+    <div class="row w-100 p-3 justify-content-center">
+       
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/OIP.qnpW5KtXTRnhy8g9W1rE5QHaFj?pid=ImgDet&w=199&h=149&c=7&dpr=1,3" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mesa con dos sillas Montessori</h5>
+          <p class="card-text">Juego de mesa y sillas con juguetes didactico y baulera</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ropero Montessori</h5>
+          <p class="card-text">Ropero en madera de pino Montessori </p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/OIP.4ctV0DKboLCSMxfWeWMN_AHaHa?pid=ImgDet&rs=1" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Escritorio Montessori</h5>
+          <p class="card-text">Escritorio con juego de dos sillas en madera de pino Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/0878/3252/products/0782JC_wkid_1024x1024.jpg?v=1464960471" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Repisa Montessori</h5>
+          <p class="card-text">Repisa de tres niveles en madera de pino Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://www.woodcraft.com/product_images/woodworking-project-paper-plan-to-build-storybook-storage/5843c49469702d0253000b00/large_thumb.jpg?c=1480836244" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Repisa Casita Montessori</h5>
+          <p class="card-text">Repisa en forma de casita de muñecas en madera de pino Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://i.pinimg.com/originals/65/90/90/659090cdd3b8c273af6fc6ebcae88248.jpg" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cama Montessori</h5>
+          <p class="card-text">Cama de una plaza en madera de pino Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://th.bing.com/th/id/R.5c4e185756f3505d07f1a31f98b0df3e?rik=xLwYnjIeuUMPVA&pid=ImgRaw&r=0" width="100px" class="card-img-top card-image" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Librero Montessori</h5>
+          <p class="card-text">Librero de tres cuerpos en madera de pino Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://casalou.fr/wp-content/uploads/2021/07/15_Fotografs_Ainars_Mazjanis-300x300.jpg" width="100px" class="card-img-top" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Escalera y tobogan Montesorri</h5>
+          <p class="card-text">Escalera de colores y tobogan adaptable en madera de pino Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://i.pinimg.com/originals/ea/09/98/ea099846ecef1c4c48e530ee2cc4a979.jpg" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cocinita Montessori</h5>
+          <p class="card-text">Cocinita en madera de pino con pileta de metal Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://www.creciendoconmontessori.com/wp-content/uploads/2019/07/Silla-Cubo-Montessori-2-alturas.jpg" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sillitas Montessori</h5>
+          <p class="card-text">Sillita en madera de pino, en color rojo y azul Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://i.pinimg.com/originals/8e/cd/33/8ecd335168784c5dd113452f64b768b4.jpg" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cama cucheta Montessori</h5>
+          <p class="card-text">Dos camas de una plaza con cajoneras en madera de pino Montessori</p>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      
+      </div>
+      <div class="card m-2 shadow rounded" style="width: 18rem;">
+        <img src="https://i.pinimg.com/originals/38/74/be/3874be16627a3f116910daf00b54137b.jpg" class="card-img-top card-image" alt="...">
+        <div class="card-body">
+           <h5 class="card-title">Carpa Montessori</h5>
+           <p class="card-text">Carpa con cañas y tela impermeable Montessori</p>
+           <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+  
+      </div>
+    </div>
+  
+     
+  
+      
+  
+       
+    </main>
+  
+    
+      <footer class="p-3 mb-2 colorfooter text-white">
+  
+    
+        <div class="container-fluid w-100 text-center">
+  
+          <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-4">
+                
+                <h6 id="Contacto">
+                Preguntas Frecuentes<br>
+                Medios de Pago<br>
+                Medios de Envio<br>
+                Contacto <br>
+                </h6>
+            </div>
+  
+           <div class="col-sm-3 col-md-3 col-lg-4">
+              
+                <h6>Seguinos en Redes</h6>
+                 <a href="https://www.facebook.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" width="20px"></a>
+                 <a href="https://twitter.com/" target="_blank"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-4.png" width="17px"></a>
+                 <a href="https://www.youtube.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="25px"></a>
+           </div>
+              
+                
+                <div class="col-sm-3 col-md-3 col-lg-4">
+                    Rolling Kids<br>
+                    Rolling Kids SA.<br>
+                    Tucuman<br>
+                    Argentina <br>
+                    </h6>
+                </div>
+            </div>
+        </div>  
+      </footer>
+      <div> <p class="text-muted small text-center">Anto y sus maravillas, arte y belleza @2023. Todos los derechos reservados.</p></div> 
+  
+  
+       
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
