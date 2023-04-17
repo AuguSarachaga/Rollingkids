@@ -81,4 +81,10 @@
     height: 200px;
     object-fit: cover;
   }
+  .card-img-top {
+    max-width: 200px;
+    height: auto;
+    display: flex;
+    margin: 0 0 0 25%;
+  }
   
