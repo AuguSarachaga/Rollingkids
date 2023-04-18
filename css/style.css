@@ -34,12 +34,22 @@
 }
 .texto-nosotros{
     text-align: center;
-    margin-top: 30%;
+    margin-top: 5%;
 
 }
 
 .parrafo-juguetes{
-    margin-bottom:30%;
+    align-items: center;
+    display: flex;
+}
+.imgpublicidad{
+    height: 35%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}  */
+.botonbuscarcol{
+    margin: 0 0 0 50px;
 }
 
 .texto-nosotros{
@@ -67,12 +77,12 @@
 }
 
 .Lo-mas-vendido{
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 
 .texto-lo-mas-vendido{
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 .espacio-consulta{
     margin-top: 3%;
@@ -270,3 +280,35 @@ input:invalid ~ .invalid-feedback {
     display: block;
 }
 /* aqui termina */
+
+
+a {
+    text-decoration: none;
+}
+.login-page {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.form-right i {
+    font-size: 100px;
+}
+
+.imagen-registrarse{
+    margin: 5%;
+}
+
+.bg-imagen-registrarse{
+    background: url(https://img.freepik.com/vector-premium/patron-suave-infantil-minimalista-lindo-inconsutil-puntos-multicolores-colores-pastel_308665-221.jpg?w=2000);
+
+}
+
+.borde-registrarse{
+    box-shadow: 7px 13px 100px #2965c0
+}
+
+.espacio-logo-redes{
+   margin-bottom: 8%;
+}
