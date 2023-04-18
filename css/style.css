@@ -29,6 +29,7 @@
     margin: 0%;
     padding: 0 2 0 4;
     width: 100px;
+    height: 600px;
 
 }
 .texto-nosotros{
@@ -81,15 +82,6 @@
     height: 200px;
     object-fit: cover;
   }
-<<<<<<< HEAD
-  .card-img-top {
-    max-width: 200px;
-    height: auto;
-    display: flex;
-    margin: 0 0 0 25%;
-  }
-  
-=======
   
 
 .details {
@@ -261,4 +253,20 @@ a{
     
 
 }
->>>>>>> baf05090011eff1ab4f3b7e44e77ffa55dbe07a1
+/* aqui empieza css de form contacto */
+input:invalid {
+    border-color: #dc3545;
+}
+
+input:valid {
+    border-color: #86a8ce;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+input:invalid ~ .invalid-feedback {
+    display: block;
+}
+/* aqui termina */
