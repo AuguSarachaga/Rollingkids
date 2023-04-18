@@ -34,7 +34,7 @@
 }
 .texto-nosotros{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
 
 }
 
@@ -50,6 +50,8 @@
 }  */
 .botonbuscarcol{
     margin: 0 0 0 50px;
+    margin-bottom:30%;
+    
 }
 
 .texto-nosotros{
@@ -230,7 +232,7 @@
   }
 
   textarea.form-control{
-    width: 45%;
+    width: 106%;
   }
 
   .body-error{
@@ -311,4 +313,10 @@ a {
 
 .espacio-logo-redes{
    margin-bottom: 8%;
+}
+
+
+.espacio-compra{
+
+    margin-bottom: 5%;
 }
