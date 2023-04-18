@@ -39,6 +39,7 @@
 
 .parrafo-juguetes{
     margin-bottom:30%;
+    
 }
 
 .texto-nosotros{
@@ -228,7 +229,7 @@
   }
 
   textarea.form-control{
-    width: 45%;
+    width: 106%;
   }
 
   .body-error{
@@ -293,4 +294,10 @@ a {
 
 .espacio-logo-redes{
    margin-bottom: 8%;
+}
+
+
+.espacio-compra{
+
+    margin-bottom: 5%;
 }
